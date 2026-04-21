@@ -1,4 +1,4 @@
-import { Shield, AlertTriangle, Lock, Brain, Mail, Eye } from "lucide-react";
+import { Shield, AlertTriangle, Lock, Brain, Mail, Eye, FlaskConical } from "lucide-react";
 import heroImage from "@/assets/hero-shield.jpg";
 import BentoCard from "@/components/BentoCard";
 import StatCard from "@/components/StatCard";
@@ -76,11 +76,18 @@ const Index = () => {
             variant="accent"
           />
           <BentoCard
+            icon={FlaskConical}
+            title="🧪 Laboratorio Práctico"
+            description="Simulador de phishing, analizador de URLs y generador de contraseñas. Aprende haciendo."
+            link="/laboratorio"
+            className="md:col-span-2"
+            variant="warning"
+          />
+          <BentoCard
             icon={Brain}
             title="🧠 Quiz Interactivo"
             description="¿Podrás detectar un phishing real? Pon a prueba tus conocimientos."
             link="/quiz"
-            className="md:col-span-2"
             variant="accent"
           />
         </div>
