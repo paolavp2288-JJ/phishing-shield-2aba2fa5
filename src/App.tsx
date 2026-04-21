@@ -10,6 +10,7 @@ import QueEsPhishing from "./pages/QueEsPhishing";
 import TiposDeAtaques from "./pages/TiposDeAtaques";
 import ComoProtegerte from "./pages/ComoProtegerte";
 import Quiz from "./pages/Quiz";
+import Laboratorio from "./pages/Laboratorio";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/tipos-de-ataques" element={<TiposDeAtaques />} />
           <Route path="/como-protegerte" element={<ComoProtegerte />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/laboratorio" element={<Laboratorio />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

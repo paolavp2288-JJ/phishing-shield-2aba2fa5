@@ -7,6 +7,7 @@ const navItems = [
   { path: "/que-es-phishing", label: "¿Qué es?" },
   { path: "/tipos-de-ataques", label: "Tipos de Ataques" },
   { path: "/como-protegerte", label: "Protégete" },
+  { path: "/laboratorio", label: "🧪 Laboratorio" },
   { path: "/quiz", label: "🧠 Quiz" },
 ];
 
